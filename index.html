@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI PDF Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI PDF & Text Summarizer</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+            <textarea name="article" rows="8" placeholder="Or paste your article here..."></textarea>
+
+            <br><br>
+            <input type="file" name="pdf_file" accept=".pdf">
+            <br><br>
+
+            <button type="submit">Summarize</button>
+        </form>
+
+        <div class="summary-box">
+            <h3>Summary:</h3>
+            <p>{{ summary }}</p>
+        </div>
+    </div>
+</body>
+</html>
