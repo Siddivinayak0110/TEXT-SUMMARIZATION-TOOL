@@ -55,3 +55,4 @@ Web-based interface
 
 Modern responsive design
 ## Result 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0567ab58-2f6b-4add-a9ad-d6d6ce195764" />
